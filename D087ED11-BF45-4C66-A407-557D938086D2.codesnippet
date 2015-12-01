@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    //设置背景色
+    self.window.backgroundColor = [UIColor whiteColor];
+    //设置根控制器
+    &lt;#Class#&gt; *&lt;#name#&gt; = [[&lt;#Class#&gt; alloc]init];
+    UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:&lt;#name#&gt;];
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D087ED11-BF45-4C66-A407-557D938086D2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>无storyboard初始化</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
